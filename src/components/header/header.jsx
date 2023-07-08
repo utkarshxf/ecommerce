@@ -1,8 +1,8 @@
-
+import "./header.css"
 function App() {
   return (
     <div className="Header">
-    <p> thi sis deah</p>
+    <p> hello </p>
     </div>
   );
 }
