@@ -1,9 +1,14 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./pages/homepage.js"
 function App() {
   return (
-    <div className="App">
-    <Homepage />
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Homepage/>} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 export default App;
