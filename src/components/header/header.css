@@ -1,0 +1,28 @@
+.header_top_first{
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+}
+.header_top_second{
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+}
+.header_top{
+display:flex;
+justify-content: space-between;
+}
+.Logo{
+    height: 100px;
+}
+.Header{
+    text-align: center;
+}
